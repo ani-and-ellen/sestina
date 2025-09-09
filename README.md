@@ -1,3 +1,83 @@
+# sestina
+helps user build a sestina poem
+
+The patterns of word repetition are as follows, with each number representing the final word of a line, and each row of numbers representing a stanza:
+
+          1
+          2
+          3
+          4
+          5
+          6
+
+          6
+          1
+          5
+          2
+          4
+          3
+
+          3
+          6
+          4
+          1
+          2
+          5
+
+          5
+          3
+          2
+          6
+          1
+          4
+
+          4
+          5
+          1
+          3
+          6
+          2
+
+          2
+          4
+          6
+          5
+          3
+          1
+
+          (6 2)
+          (1 4)
+          (5 3)
+
+          could look like:
+
+          ____input_______  _input________
+          [all other words] [ending word 1]
+
+          ____input_______  _input________
+          [all other words] [ending word 2]
+
+          etc...
+
+          _input_ [6] _input_ [2]
+          _input_ [1] _input_ [4]
+          _input_ [5] _input_ [3]
+
+          [copy button, preserves formatting]
+          [pdf button, downloads pdf]
+
+### `npm run dev`
+
+runs the app in development mode
+
+### `npm run build`
+
+to build for production
+
+### `npm run preview`
+
+to locally preview production build
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
