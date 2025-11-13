@@ -78,6 +78,11 @@ to build for production
 
 to locally preview production build
 
+## Acknowledgments
+
+The CSS code for the .sr-only class was found here: https://kittygiraudel.com/snippets/sr-only-class/,
+in an effort to keep the form visually concise but still accessible to screenreaders.
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
